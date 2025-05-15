@@ -22,9 +22,9 @@ on:
       - "third-party/**"
       - "toolchains/**"
   push:
-    branches：
+    branches:
       - "test"
-
+      - "main"
 name: Base GitHub Action for Check, Test and Lints
 
 concurrency:
